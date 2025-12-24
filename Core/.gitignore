@@ -1,13 +1,14 @@
 # ========================
-# Visual Studio / .NET
+# .NET / C# Projects
 # ========================
 
-# Build Folders
+# Build output
 bin/
 obj/
 out/
 
-# User-specific files
+# Visual Studio
+.vs/
 *.user
 *.suo
 *.userosscache
@@ -16,85 +17,40 @@ out/
 # Visual Studio Code
 .vscode/
 
-# Rider
+# JetBrains Rider
 .idea/
-
-# Mac
-.DS_Store
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
+*.iml
 
 # NuGet
 *.nupkg
 *.snupkg
 packages/
-# Uncomment if you have a packages folder for older projects
-# **/packages/*
 
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-# Visual Studio temporary files
-*.tmp
-*.tmp_proj
+# Logs
 *.log
-*.vspscc
-*_i.c
-*_p.c
-*_h.h
-*.ilk
-*.meta
-*.obj
-*.pch
-*.pdb
-*.ipch
-*.pgc
-*.pgd
-*.rsp
-*.sbr
-*.tlh
-*.tli
-*.cachefile
-*.dbmdl
+logs/
 
-# IIS Express
-/.vs/
-/iisExpress/
+# Backup / temp files
+*~
+*.bak
+*.backup
+*.swp
+*.tmp
 
-# Rider
-.idea/
-*.iml
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
 
-# Coverage / Test results
+# Test results / coverage
 TestResults/
 *.coverage
 *.coveragexml
 *.trx
-*.vsmdi
 
-# Node / Frontend (if any)
-node_modules/
-
-# JetBrains Rider
-.idea/
-
-# Log files
-*.log
-logs/
-
-# dotenv files
+# Environment files
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-
-# Backup files
-*~
-*.bak
-*.backup
-*.swp
-
