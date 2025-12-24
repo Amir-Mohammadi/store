@@ -1,0 +1,2 @@
+D:\project\training\dotnet\store\wwwroot\status.html
+wwwroot\status.html

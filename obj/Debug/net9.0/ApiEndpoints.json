@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "store.Controllers.StatusController",
+    "Method": "Get",
+    "RelativePath": "api/Status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

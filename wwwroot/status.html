@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Store Backend Status</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #020617, #020617);
+            color: #e5e7eb;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background: #0f172a;
+            padding: 32px 36px;
+            border-radius: 16px;
+            width: 440px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+        }
+
+        h1 {
+            margin: 0 0 24px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: 600;
+            color: #22c55e;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+            .row:last-child {
+                border-bottom: none;
+            }
+
+        .label {
+            color: #94a3b8;
+            font-size: 14px;
+        }
+
+        .value {
+            font-size: 14px;
+            font-weight: 500;
+            text-align: right;
+        }
+
+        .badge {
+            background: rgba(34, 197, 94, 0.15);
+            color: #22c55e;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .uptime {
+            font-family: "Consolas", monospace;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>🛒 Store Backend</h1>
+
+        <div class="row">
+            <div class="label">Service</div>
+            <div class="value" id="service"></div>
+        </div>
+
+        <div class="row">
+            <div class="label">Status</div>
+            <div class="value badge" id="serviceStatus"></div>
+        </div>
+
+        <div class="row">
+            <div class="label">Environment</div>
+            <div class="value" id="env"></div>
+        </div>
+
+        <div class="row">
+            <div class="label">IP Address</div>
+            <div class="value" id="ip"></div>
+        </div>
+
+        <div class="row">
+            <div class="label">Started At</div>
+            <div class="value" id="start"></div>
+        </div>
+
+        <div class="row">
+            <div class="label">Uptime</div>
+            <div class="value uptime" id="uptime"></div>
+        </div>
+    </div>
+
+    <script>
+        let startTime = null;
+
+        function formatUptime(seconds) {
+            const h = String(Math.floor(seconds / 3600)).padStart(2, '0');
+            const m = String(Math.floor((seconds % 3600) / 60)).padStart(2, '0');
+            const s = String(seconds % 60).padStart(2, '0');
+            return `${h}:${m}:${s}`;
+        }
+
+        function updateUptime() {
+            if (!startTime) return;
+            const seconds = Math.floor((new Date() - startTime) / 1000);
+            document.getElementById("uptime").textContent = formatUptime(seconds);
+        }
+
+        fetch("/api/status")
+            .then(r => r.json())
+            .then(d => {
+                document.getElementById("service").textContent = d.service;
+                document.getElementById("serviceStatus").textContent = d.status;
+                document.getElementById("env").textContent = d.environment;
+                document.getElementById("ip").textContent = d.ip;
+
+                const started = new Date(d.startedAt);
+                document.getElementById("start").textContent =
+                    started.toLocaleString(undefined, {
+                        year: "numeric",
+                        month: "2-digit",
+                        day: "2-digit",
+                        hour: "2-digit",
+                        minute: "2-digit",
+                        second: "2-digit"
+                    });
+
+                startTime = started;
+                updateUptime();
+                setInterval(updateUptime, 1000);
+            });
+    </script>
+
+</body>
+</html>
