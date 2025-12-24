@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ARM\\Desktop\\store\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E31C9F9D-0FD1-42A8-84A9-067221BD6CFC}|Core\\Core.csproj|c:\\users\\arm\\desktop\\store\\core\\swagger\\securityrequirementsoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31C9F9D-0FD1-42A8-84A9-067221BD6CFC}|Core\\Core.csproj|solutionrelative:core\\swagger\\securityrequirementsoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ARM\\Desktop\\store\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31C9F9D-0FD1-42A8-84A9-067221BD6CFC}|Core\\Core.csproj|c:\\users\\arm\\desktop\\store\\core\\autofac\\autofacconfigurationdependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31C9F9D-0FD1-42A8-84A9-067221BD6CFC}|Core\\Core.csproj|solutionrelative:core\\autofac\\autofacconfigurationdependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C436F596-0B13-47B0-8401-59B838F59021}|store.csproj|c:\\users\\arm\\desktop\\store\\store.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C436F596-0B13-47B0-8401-59B838F59021}|store.csproj|solutionrelative:store.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31C9F9D-0FD1-42A8-84A9-067221BD6CFC}|Core\\Core.csproj|c:\\users\\arm\\desktop\\store\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E31C9F9D-0FD1-42A8-84A9-067221BD6CFC}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ARM\\Desktop\\store\\obj\\Debug\\net9.0\\store.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net9.0\\store.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\ARM\\Desktop\\store\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\ARM\\Desktop\\store\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T17:28:05.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SecurityRequirementsOperationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\ARM\\Desktop\\store\\Core\\Swagger\\SecurityRequirementsOperationFilter.cs",
+              "RelativeDocumentMoniker": "Core\\Swagger\\SecurityRequirementsOperationFilter.cs",
+              "ToolTip": "C:\\Users\\ARM\\Desktop\\store\\Core\\Swagger\\SecurityRequirementsOperationFilter.cs",
+              "RelativeToolTip": "Core\\Swagger\\SecurityRequirementsOperationFilter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAlwBwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T17:26:35.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutofacConfigurationDependency.cs",
+              "DocumentMoniker": "C:\\Users\\ARM\\Desktop\\store\\Core\\Autofac\\AutofacConfigurationDependency.cs",
+              "RelativeDocumentMoniker": "Core\\Autofac\\AutofacConfigurationDependency.cs",
+              "ToolTip": "C:\\Users\\ARM\\Desktop\\store\\Core\\Autofac\\AutofacConfigurationDependency.cs",
+              "RelativeToolTip": "Core\\Autofac\\AutofacConfigurationDependency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T17:16:10.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "store.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ARM\\Desktop\\store\\obj\\Debug\\net9.0\\store.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net9.0\\store.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\ARM\\Desktop\\store\\obj\\Debug\\net9.0\\store.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\net9.0\\store.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T17:15:31.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Core.csproj",
+              "DocumentMoniker": "C:\\Users\\ARM\\Desktop\\store\\Core\\Core.csproj",
+              "RelativeDocumentMoniker": "Core\\Core.csproj",
+              "ToolTip": "C:\\Users\\ARM\\Desktop\\store\\Core\\Core.csproj",
+              "RelativeToolTip": "Core\\Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-24T17:13:23.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "store.csproj",
+              "DocumentMoniker": "C:\\Users\\ARM\\Desktop\\store\\store.csproj",
+              "RelativeDocumentMoniker": "store.csproj",
+              "ToolTip": "C:\\Users\\ARM\\Desktop\\store\\store.csproj",
+              "RelativeToolTip": "store.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-24T17:13:12.098Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

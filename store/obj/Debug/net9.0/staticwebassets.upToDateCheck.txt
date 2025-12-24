@@ -1,0 +1,2 @@
+C:\Users\ARM\Desktop\store\store\wwwroot\status.html
+wwwroot\status.html
