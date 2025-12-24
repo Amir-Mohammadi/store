@@ -1,0 +1,14 @@
+D:\project\training\dotnet\Core\bin\Debug\net9.0\Core.deps.json
+D:\project\training\dotnet\Core\bin\Debug\net9.0\Core.dll
+D:\project\training\dotnet\Core\bin\Debug\net9.0\Core.pdb
+D:\project\training\dotnet\Core\obj\Debug\net9.0\Core.csproj.AssemblyReference.cache
+D:\project\training\dotnet\Core\obj\Debug\net9.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\training\dotnet\Core\obj\Debug\net9.0\Core.AssemblyInfoInputs.cache
+D:\project\training\dotnet\Core\obj\Debug\net9.0\Core.AssemblyInfo.cs
+D:\project\training\dotnet\Core\obj\Debug\net9.0\Core.csproj.CoreCompileInputs.cache
+D:\project\training\dotnet\Core\obj\Debug\net9.0\Core.dll
+D:\project\training\dotnet\Core\obj\Debug\net9.0\refint\Core.dll
+D:\project\training\dotnet\Core\obj\Debug\net9.0\Core.pdb
+D:\project\training\dotnet\Core\obj\Debug\net9.0\ref\Core.dll
+D:\project\training\dotnet\Core\bin\Debug\net9.0\Core.runtimeconfig.json
+D:\project\training\dotnet\Core\obj\Debug\net9.0\Core.genruntimeconfig.cache
