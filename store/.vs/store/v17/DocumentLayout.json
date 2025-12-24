@@ -1,7 +1,11 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ARM\\Desktop\\store\\store\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C13072E1-067C-442A-B2DB-7D520D88FED3}|..\\Core\\Core.csproj|c:\\users\\arm\\desktop\\store\\core\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +13,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\ARM\\Desktop\\store\\Core\\.gitignore",
+              "RelativeDocumentMoniker": "..\\Core\\.gitignore",
+              "ToolTip": "C:\\Users\\ARM\\Desktop\\store\\Core\\.gitignore",
+              "RelativeToolTip": "..\\Core\\.gitignore",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-24T17:47:45.103Z",
+              "EditorCaption": ""
             }
           ]
         }
